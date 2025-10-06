@@ -1,16 +1,20 @@
-def calculator():
-    print("Simple Calculator - Addition and Subtraction")
-    num1 = float(input("Enter first number: "))
-    operation = input("Enter operation (+ or -): ")
-    num2 = float(input("Enter second number: "))
+def calculadora():
+    print("Calculadora Simples - Soma, Subtração e Multiplicação")
+    num1 = float(input("Digite o primeiro número: "))
+    operacao = input("Digite a operação (+, -, *): ")
+    num2 = float(input("Digite o segundo número: "))
 
-    if operation == '+':
-        result = num1 + num2
-        print(f"Result: {num1} + {num2} = {result}")
-    elif operation == '-':
-        result = num1 - num2
-        print(f"Result: {num1} - {num2} = {result}")
+    if operacao == '+':
+        resultado = num1 + num2
+        print(f"Resultado: {num1} + {num2} = {resultado}")
+    elif operacao == '-':
+        resultado = num1 - num2
+        print(f"Resultado: {num1} - {num2} = {resultado}")
+    elif operacao == '*':
+        resultado = num1 * num2
+        print(f"Resultado: {num1} * {num2} = {resultado}")
     else:
-        print("Invalid operation. Please use + or -.")
+        print("Operação inválida. Use +, - ou *.")
 
-calculator()
+calculadora()
+
