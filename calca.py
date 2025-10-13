@@ -4,6 +4,7 @@ def calculadora():
     operacao = input("Digite a operação (+, -, *, /): ")
     num2 = float(input("Digite o segundo número: "))
 
+    #Execução das operacoes#
     if operacao == '+':
         resultado = num1 + num2
         print(f"Resultado: {num1} + {num2} = {resultado}")
