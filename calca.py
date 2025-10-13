@@ -14,6 +14,7 @@ def calculadora():
         resultado = num1 * num2
         print(f"Resultado: {num1} * {num2} = {resultado}")
     elif operacao == '/':
+        #Resolução da divisão por zero#
         if num2 != 0:
             resultado = num1 / num2
             print(f"Resultado: {num1} / {num2} = {resultado}")
