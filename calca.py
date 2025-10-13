@@ -4,7 +4,11 @@ def calculadora():
     operacao = input("Digite a operação (+, -, *, /): ")
     num2 = float(input("Digite o segundo número: "))
 
+<<<<<<< HEAD
     #Execução das operacoes#
+=======
+    #Realiza a operação escolhida#
+>>>>>>> feat-percentagem
     if operacao == '+':
         resultado = num1 + num2
         print(f"Resultado: {num1} + {num2} = {resultado}")
